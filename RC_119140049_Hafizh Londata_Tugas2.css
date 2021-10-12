@@ -1,0 +1,128 @@
+
+.header{
+    background-color: rgb(95, 95, 95);
+    padding: 20px, 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25pt;
+    padding: 10px;
+    line-height: 50px;
+}
+
+.header a.judul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    float: right;
+    margin-right: 350px;
+    margin-top: 40px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(150, 6, 6);
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+#h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(29, 29, 29);
+}
+
+.body{
+    display: flex;
+}
+
+.body > div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30pt;
+    line-height: 60 pt;
+}
+
+.berita{
+    width: 100%;
+    height: 140px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    line-height: 25px;
+    border: 3px solid white;
+}
+
+.gambar{
+    height: 120px;
+    width: 130px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 1px;
+    border: 1px solid #dddddd;
+}
+
+.berita a{
+    margin-top: 4px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    
+}
+
+footer{
+    background-color:rgb(95, 95, 95);
+    text-align: center;
+    font-style: italic;
+    font-size: 15pt;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    font-size: 20px;
+    width: 80%;
+    border: 1px solid #000;
+    margin-left: 65pt;
+    margin-bottom: 25pt;
+  }
+  
+th, td {
+    background-color: grey;
+    color: whitesmoke;
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+  }
+  
+th {
+    background: black;
+    color: whitesmoke;
+  }
+  
+
