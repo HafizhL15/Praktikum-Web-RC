@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Example</title>
+</head>
+
+<body id="body" style="text-align: center;">
+    <label for="colors">Select Theme In This Website:</label>
+    <select name="colors" id="colors" onchange="theme()">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+
+    <script>
+        function theme(){
+            var color_bg=document.getElementById("colors");
+
+            if(color_bg.value=="light"){
+                document.body.style.backgroundColor = "white";
+                document.getElementById("body").style.color = "black";
+            }else{
+                document.body.style.backgroundColor = "black";
+                document.getElementById("body").style.color = "white";
+            }
+        }
+    </script>
+
+    <h1>Car Price Range List Website</h1>
+
+    <label for="brand">Select The Brand You Want </label>
+    <select name="brand" id="brand" onchange="price()">
+        <option value="Toyota">Toyota</option>
+        <option value="Daihatsu">Daihatsu</option>
+        <option value="Honda">Honda</option>
+        <option value="Suzuki">Suzuki</option>
+        <option value="Nissan">Nissan</option>
+        <option value="Wuling">Wuling</option>
+    </select>
+    
+    <p id="tampil"></p>
+    <script>
+        function price(){
+            var jenis_merk=document.getElementById("brand");
+
+            if(jenis_merk.value=="Toyota"){
+                var price_list=document.getElementById("tampil");
+                price_list.innerText = "Kisaran Harga Mobil Toyota dari 250 juta sampai 1,3 milliar";
+
+            }else if(jenis_merk.value=="Daihatsu"){
+                var price_list=document.getElementById("tampil");
+                price_list.innerText = "Kisaran Harga Mobil Daihatsu dari 150 juta sampai 500 juta";
+            
+            }else if(jenis_merk.value=="Honda"){
+                var price_list=document.getElementById("tampil");
+                price_list.innerText = "Kisaran Harga Mobil Honda dari 140 juta sampai 1 milliar";
+            
+            }else if(jenis_merk.value=="Suzuki"){
+                var price_list=document.getElementById("tampil");
+                price_list.innerText = "Kisaran Harga Mobil Suzuki dari 200 juta sampai 400 juta";
+            
+            }else if(jenis_merk.value=="Nissan"){
+                var price_list=document.getElementById("tampil");
+                price_list.innerText = "Kisaran Harga Mobil Nissan dari 220 juta sampai 650 juta";
+            
+            }else if(jenis_merk.value="Wuling"){
+                var price_list=document.getElementById("tampil");
+                price_list.innerText = "Kisaran Harga Mobil Wuling dari 140 juta sampai 400 juta";
+            }
+        }
+    </script>
+
+    <h2>Pengecekan Faktorial Bilangan</h2>
+    <h2>Masukan Angka: </h2>
+    <input type="number" name="angka" id="num">
+    <button type="submit" onclick="faktorial()">Periksa</button>
+
+    <script>
+        function faktorial(){
+            var faktor = document.getElementById("num");
+            let hasil = 1;
+            if (faktor.value == 0){
+                hasil = 0;
+            }else if(faktor.value == 1){
+                hasil=1;
+            }else{
+                for(var i = faktor.value; i >= 1; i--){
+                hasil = hasil * i;
+                }
+            }
+            var result = document.getElementById("hasil");
+            result.innerText = "Hasil dari faktorial tersebut adalah " + hasil;
+        }
+            
+    </script>
+
+    <p id="hasil"></p>
+
+</body>
+</html>
