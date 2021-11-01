@@ -1,0 +1,38 @@
+.col {width: 100%;}
+.row {display: auto;}
+.container {display: auto;}
+
+form{
+    border : solid 5px;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: auto;
+    padding: 5px;
+}
+
+table{
+    margin:auto;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-primary{
+    background-color: rgb(35, 72, 223);
+    color: white;
+}
+
+.btn-danger {
+    background-color: rgb(167, 16, 16);
+    color: white;
+}
+
+.btn-success {
+    background-color: rgb(6, 136, 17);
+    color: white;
+}
