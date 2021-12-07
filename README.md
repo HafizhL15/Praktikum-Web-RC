@@ -6,11 +6,11 @@ Bagian Yang dimodifikasi :
    - 500.css
 2. Merapihkan kode untuk javascript, dengan membuat file :
    - home.js
-   - 
+   
 <hr>
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Hafizh Londata
 <br>
-NIM   :
+NIM   : 119140049
