@@ -1,16 +1,12 @@
-# Praktikum-Web-RC
-Kumpulkan tugas kalian _bisa_ dengan cara: 
-1. fork repository ini 
-2. clone hasil fork repository
-3. Buat branch baru dengan nama sesuai minggu pertemuan, contoh:
-    > minggu1
- 
- (kerjakan-selesai) 
-1. hasil tugas kalian push ke github
-
-:bangbang:
-jangan lupa tambahkan hasil screenshoot web di dalam file
-
+# Praktikum-Web-RC Minggu 8
+Bagian Yang dimodifikasi :
+1. Merapihkan kode untuk tampilan, dengan membuat file :
+   - home.css
+   - index.css
+   - 500.css
+2. Merapihkan kode untuk javascript, dengan membuat file :
+   - home.js
+   - 
 <hr>
 
 ### Tambahkan identitas dasar di sini: 
